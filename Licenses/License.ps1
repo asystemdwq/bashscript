@@ -7,7 +7,7 @@ foreach ($users in $userinfo)
 {
     $user = $users.Name
     $Add = $users.Add
-    $Remove = "resourcepro0" + ":" + $users.Remove
+    $Remove = $users.Remove
     if ($user)
     {
         Set-MsolUserLicense -UserPrincipalName $user -RemoveLicenses "resourcepro:$($Remove)"
