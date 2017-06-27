@@ -1,0 +1,3 @@
+set-ExecutionPolicy -ExecutionPolicy Unrestricted
+
+ith the "Run as administrator" option. To change the execution policy for the current user, run "Set-ExecutionPolicy -Scope CurrentUser".
